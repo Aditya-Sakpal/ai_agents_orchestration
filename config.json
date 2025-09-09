@@ -1,0 +1,49 @@
+{
+    "calendar": {
+        "id": "primary",
+        "agent":2,
+        "email": "support@sell.cx",
+        "name": "SellCX Calendar",
+        "timezone": "Asia/Kolkata",
+        "availability": {
+            "start": "09:00",
+            "end": "17:00",
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+        },
+        "slot_duration": 60,
+        "credentials":{
+            "key": "./.credentials/google.json",
+            "token": "./.credentials/token.json"
+        }
+    },
+    "user":{
+        "name": "User",
+        "pic":"https://cdn-icons-png.flaticon.com/512/3135/3135717.png"
+    },
+    "assistant": {
+        "name": "SellCX Agent",
+        "profile": "./storage/sales_experts/assistant.json"
+    },
+    "system": {
+        "name": "SellCX",
+        "down_pic": "https://cdn-icons-png.flaticon.com/512/3135/3135825.png"
+    },
+    "app": {
+        "theme": "./public/styles.css",
+        "storage": {
+            "prompts_path": "./storage/prompts/",
+            "profiles_path": "./storage/sales_experts/",
+            "smbs": {
+                "Allstate Roofing": "1",
+                "Highland Contractors": "6"
+            },
+            "visitors":{
+                "David Buzzelli": "550e8400-e29b-41d4-a716-446655440001",
+                "Vikash Pathak": "550e8400-e29b-41d4-a716-446655440000"
+            }
+        },
+        "session": {
+            "backend": "streamlit"
+        }
+    }
+}
