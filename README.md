@@ -4,6 +4,9 @@
 
 This application is designed to streamline both Q&A and appointment scheduling through a powerful Agent Management Architecture (AMA) that leverages agent execution. It seamlessly integrates with Google Calendar for booking, viewing, and managing appointments. Additionally, the application features an advanced knowledge base powered by a Neo4j database, enabling efficient Q&A through retrieval from a knowledge graph. By utilizing LangChain and LangGraph, it ensures precise natural language processing and graph-based workflows for smooth scheduling. Managed with Poetry, the application guarantees seamless dependency handling and environment setup.
 
+## Video Demo 
+[https://www.dropbox.com/scl/fi/ewvf6scp2qcp8dw132c2l/agents_demo.mp4?rlkey=uzekf7phh9ujyake575pk25g5&st=gg7xmoos&dl=0](url)
+
 ## Features
 
 - **Agent Management Architecture (AMA)**: Core architecture supporting multiple agent types (support, appointment, retrieval) with minimal setup
@@ -164,5 +167,6 @@ The application will use these configurations to authenticate with various servi
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
 ## License
+
 
 All rights reserved by GenerexAI
