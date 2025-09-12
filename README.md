@@ -7,6 +7,11 @@ This application is designed to streamline both Q&A and appointment scheduling t
 ## Video Demo 
 https://www.dropbox.com/scl/fi/ewvf6scp2qcp8dw132c2l/agents_demo.mp4?rlkey=uzekf7phh9ujyake575pk25g5&st=gg7xmoos&dl=0
 
+## Deprecated Site Access 
+Link : https://highlandcontractors.sell.cx/
+Username : highlandcontractors
+Password : ywL2U2ZJR8ukkpls
+
 ## Features
 
 - **Agent Management Architecture (AMA)**: Core architecture supporting multiple agent types (support, appointment, retrieval) with minimal setup
@@ -170,4 +175,5 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 
 All rights reserved by GenerexAI
+
 
